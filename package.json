@@ -1,0 +1,49 @@
+{
+  "name": "random-anime-wallpapers",
+  "version": "0.0.0",
+  "description": "Get some nice anime wallpapers in node.js",
+  "license": "MIT",
+  "repository": "egoist/random-anime-wallpapers",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo src/*.js && ava",
+    "test2": "npm run build && npm test",
+    "build": "bubleup"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "anime",
+    "wallpaper"
+  ],
+  "devDependencies": {
+    "ava": "latest",
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2
+  },
+  "dependencies": {
+    "aimer": "^1.3.0"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "kanpai": {
+    "test": "test2"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  }
+}
