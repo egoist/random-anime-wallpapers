@@ -29,6 +29,10 @@ randomAnimeWallpapers()
 randomAnimeWallpapers(keyword).then() //...
 ```
 
+## Related
+
+- The API as a service: https://raw-api.now.sh ([repo](https://github.com/egoist-api/random-anime-wallpapers-api))
+
 ## License
 
 MIT © [EGOIST](https://github.com/egoist)
