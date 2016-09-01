@@ -6,7 +6,11 @@ export default function random(keyword = '') {
       const ids = []
       $('.thumb-listing-page').find('figure').each(function () {
         const id = $(this).attr('data-wallpaper-id')
-        ids.push(`https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-${id}.jpg`)
+        ids.push({
+          id,
+          thumb: `https://wallpapers.wallhaven.cc/wallpapers/thumb/small/th-${id}.jpg`,
+          full: `https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-${id}.jpg`
+        })
       })
       return ids
     })

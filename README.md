@@ -22,7 +22,7 @@ const randomAnimeWallpapers = require('random-anime-wallpapers')
 randomAnimeWallpapers()
   .then(images => {
     console.log(images)
-    //=> ['https://...jpg', 'https://...jpg']
+    //=> [{id, thumb, full}, ...]
   })
 
 // you can also specific a keyword to search
