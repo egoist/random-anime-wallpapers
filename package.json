@@ -1,6 +1,6 @@
 {
   "name": "random-anime-wallpapers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get some nice anime wallpapers in node.js",
   "license": "MIT",
   "repository": "egoist/random-anime-wallpapers",
