@@ -1,3 +1,5 @@
+> Deprecated in favor of https://github.com/egoist/wallhaven-api
+
 <p align="center">
   <br><strong>random-anime-wallpapers</strong> <br>brought you some nice anime wallpapers 😋.
 </p>
